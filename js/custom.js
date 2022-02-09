@@ -128,15 +128,15 @@
     createShareButtonAndDialog();
 
     // Create the gallery
-//     var $gallery = $(".gallery");
-//     // In practice, these images urls may come from your server via http ajax requests.
-//     for (var i = 0; i < 8; i++) {
-//       var item = "<a href=\"javascript:void(0)\" class=\"flex-column\">" +
-//         "<img src=\"img/dummay-img.png\">" +
-//         "<div>Image Caption</div>" +
-//         "</a>";
-//       $gallery.append($(item));
-//     }
+    var $gallery = $(".gallery");
+    // In practice, these images urls may come from your server via http ajax requests.
+    for (var i = 0; i < 8; i++) {
+      var item = "<a href=\"javascript:void(0)\" class=\"flex-column\">" +
+        "<img src=\"img/dummay-img.png\">" +
+        "<div>Image Caption</div>" +
+        "</a>";
+      $gallery.append($(item));
+    }
 
     // Create custom tabs
     widgets.createCustomTab({
